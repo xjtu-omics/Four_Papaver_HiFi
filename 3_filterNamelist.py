@@ -35,14 +35,14 @@ def main():
         filter_name_list[chr] = []
         sorted_region = sorted(name_list[chr],key=lambda x:x[0])
         start_one = sorted_region[0]
-        # 后一个如果与前一个重叠80%以上，保留unit_len小的
+        
         for j in range(len(sorted_region) - 1):
             index = j + 1
             if start_one[1] >= sorted_region[index][0]:
-                # 判断重叠比例
+                
                 overlap = start_one[1] - sorted_region[index][0]
                 if overlap / (sorted_region[index][1] - sorted_region[index][0]) > 0.8:
-                    # 判断两个unit len保留小的
+                    
                     if start_one[2] > sorted_region[index][2]:
                         start_one = sorted_region[index]
                     else:
