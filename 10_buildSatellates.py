@@ -2,7 +2,7 @@ import argparse
 
 
 def main():
-    # 统计satellite信息
+    # stat satellite information
     parser = argparse.ArgumentParser(description="")
     parser.add_argument("-cf", "--communities_file")
     parser.add_argument("-w", "--workdir")
