@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import networkx.algorithms.community as nx_comm
 import argparse
 def main():
-    # 8.生成图创建 community
+    
     parser = argparse.ArgumentParser(description="")
     parser.add_argument("-w", "--work_dir")
     parser.add_argument("-n", "--name_list_file")
