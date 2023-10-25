@@ -2,7 +2,6 @@ import argparse
 import os
 
 def main():
-    # 9.读取各个物种community文件，选取代表区间，在全部物种chr上运行，得到跨chr的lastz
     parser = argparse.ArgumentParser(description="")
     parser.add_argument("-w", "--work_dir")
     parser.add_argument("-o", "--out_dir")
