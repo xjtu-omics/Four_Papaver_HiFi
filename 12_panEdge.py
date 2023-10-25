@@ -4,7 +4,7 @@ import argparse
 import os
 import networkx.algorithms.community as nx_comm
 def main():
-    # 10. 建立edge，条件，cov80，identity80, 建立edge
+    
     parser = argparse.ArgumentParser(description="")
     parser.add_argument("-w", "--workdir")
     parser.add_argument("-o", "--outdir")
