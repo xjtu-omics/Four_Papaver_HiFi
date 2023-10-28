@@ -1,5 +1,5 @@
 # Four_Papaver_HiFi
-The analysis scripts used in four Papaver HiFi centromere satellites analysis projects.
+The analysis scripts used in four Papaver genome centromere satellites analysis projects.
 
 There are 13 scripts, and the introduction and description as following:
 
